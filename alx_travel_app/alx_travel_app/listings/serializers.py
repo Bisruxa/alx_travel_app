@@ -3,7 +3,7 @@ from listings.models import Booking, Listing, CustomUser
 from datetime import date
 from typing import Any
 
-
+# serializers.py
 class BookingSerializer(serializers.HyperlinkedModelSerializer):
     """
     Handles serialization and validation for Booking objects.
